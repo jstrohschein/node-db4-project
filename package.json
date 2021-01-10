@@ -1,0 +1,38 @@
+{
+  "name": "SFR_back-end",
+  "version": "1.0.0",
+  "description": "API that stores recipes, instructions, ingredients, and user-related actions",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TT-WebPT-BW-203/back-end.git"
+  },
+  "keywords": [],
+  "author": "Jared Strohschein",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TT-WebPT-BW-203/back-end/issues"
+  },
+  "homepage": "https://github.com/TT-WebPT-BW-203/back-end#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.21.15",
+    "knex-cleaner": "^1.3.1",
+    "pg": "^8.5.1",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "eslint": "^7.17.0",
+    "nodemon": "^2.0.6"
+  }
+}
